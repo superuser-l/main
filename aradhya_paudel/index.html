@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aradhya - Developer Portfolio</title>
+    <meta content="Aradhya" property="og:title" />
+    <meta content="Developer Portfolio" property="og:description" />
+    <meta property="og:image" content="./port.png">
+    <meta content="#89CFF0" data-react-helmet="true" name="theme-color" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left" >Aradhya's Portfolio</div>
+        <div class="right">
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header >
+    <main id="home">
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Aradhya</span>
+          
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            <img src="Port.png" alt="" width="350" class="image">
+        </div>
+      </section>
+      <section class="secondsection">
+        <hr class="hr" id="about">
+        <h1 class="h1">About Me</h6>
+            <p  class="me">
+                I am a dynamic and results-driven professional, fueled by a profound enthusiasm for creativity and innovation. With a background in diverse fields such as Web development ,Web design and project management, I bring a unique blend of skills to any endeavor. My commitment to excellence is reflected in my meticulous attention to detail and relentless pursuit of improvement. A collaborative and adaptable team player, I thrive in dynamic environments, leveraging effective communication and problem-solving skills to deliver successful outcomes. My passion for continuous learning drives me to explore new challenges, ensuring that I stay at the forefront of industry trends. Through a combination of strategic thinking, creativity, and a results-oriented approach, I aim to contribute meaningfully to projects and organizations, fostering an environment of growth and achievement.
+            </p>
+      </section>
+      <section class="thirdsection">
+<hr class="hr">
+<h1 class="h1" id="contact">Contact Me</h1>
+<div class="cont">
+    <h3>Email : poudlearadhya@gmail.com</h3>
+    <h3>Phone : 9842958382</h3>
+    <div class="fb"><a href="https://www.facebook.com/aradhya.paudel.716/" target="_blank"><img src="Facebook.png" width="30"alt=""></a>
+</div></div>
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="foot">
+            <h3>&copy; 2023 Aradhya Paudel. All rights reserved.</h3>
+        </div>
+    </footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer','Web designer'],
+      typeSpeed: 50,
+    });
+  </script>  
+</body>
+</html>
